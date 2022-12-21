@@ -1,0 +1,44 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color:  #2f7cb5 ;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.contact_info {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
